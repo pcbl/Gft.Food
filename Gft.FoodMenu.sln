@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gft.FoodMenu.Tests", "Gft.FoodMenu.Tests\Gft.FoodMenu.Tests.csproj", "{4481B0CC-079E-4B46-AAF2-FA710402368C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gft.FoodMenu.Core", "Gft.FoodMenu.Core\Gft.FoodMenu.Core.csproj", "{D41A62A1-30D6-43CF-BAB7-D2775DFC1B39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gft.FoodMenu.Client", "Gft.FoodMenu.Client\Gft.FoodMenu.Client.csproj", "{068C743D-AA75-4176-8D26-6ED2637FA773}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DE36346F-4543-4D5C-9211-EE278B406480}"
+	ProjectSection(SolutionItems) = preProject
+		BuildAndRunTests.ps1 = BuildAndRunTests.ps1
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4481B0CC-079E-4B46-AAF2-FA710402368C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4481B0CC-079E-4B46-AAF2-FA710402368C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4481B0CC-079E-4B46-AAF2-FA710402368C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4481B0CC-079E-4B46-AAF2-FA710402368C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D41A62A1-30D6-43CF-BAB7-D2775DFC1B39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D41A62A1-30D6-43CF-BAB7-D2775DFC1B39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D41A62A1-30D6-43CF-BAB7-D2775DFC1B39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D41A62A1-30D6-43CF-BAB7-D2775DFC1B39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{068C743D-AA75-4176-8D26-6ED2637FA773}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{068C743D-AA75-4176-8D26-6ED2637FA773}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{068C743D-AA75-4176-8D26-6ED2637FA773}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{068C743D-AA75-4176-8D26-6ED2637FA773}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
