@@ -79,7 +79,7 @@
 
 # Implementation
 
-This git repository contains a solution for the Practicum. The project is coumpound of the following parts:
+This git repository contains a solution ('Gft.FoodMenu.sln' on root folder) for this Practicum. It contains the following projects:
 
 | Project | Description |
 | --- | --- | 
@@ -87,7 +87,7 @@ This git repository contains a solution for the Practicum. The project is coumpo
 | Gft.FoodMenu.Core | Class library that holds the core logic of the Practicum | 
 | Gft.FoodMenu.Tests | Unit Tests Project, with 100% Code coverage of Gft.FoodMenu.Core | 
 
-The project was designed to support additional **custom** menus by using MEF. All you have to do is:
+The solution was designed to support additional **custom** menus by using MEF. All you have to do is:
 
 1. Create your Class Library
 2. Add Reference to(Gft.FoodMenu.Core.dll)
